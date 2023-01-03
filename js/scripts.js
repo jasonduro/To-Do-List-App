@@ -10,6 +10,7 @@ function newItem(){
        if (inputValue === '') {
          alert("You must write something!");
        } else {
+        //used jQuery chain below
          $('#list').append(li);
        }
     
